@@ -1,0 +1,32 @@
+.activity-bar-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 100px;
+    padding: 12px;
+    background-color: #f1f5f9;
+    border-radius: 12px;
+    width: fit-content;
+}
+
+.activity-bar {
+    width: 2px;
+    height: 80%;
+    border-radius: 4px;
+}
+
+.lightblue {
+    background-color: var(--lightBlue);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.darkblue {
+    background-color: var(--darkBlue);
+}
+
+.gray {
+    background-color: var(--darkGray);
+}

@@ -1,0 +1,66 @@
+.calendar-view{
+    width: 100% ;
+    margin-left: 10px;
+    background-color: var(--lightBackgroud);
+    border-radius: 0 25px 25px 0;
+}
+
+.profile-section{
+    margin-top: 10px;
+    padding: 25px 35px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+
+.profile{
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: skyblue;
+}
+
+.add-button{
+    height: 30px;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+
+.month-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 10px;
+    color: var(--blue);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.month-name h3{
+    margin-left: 20px;
+    font-weight: 500;
+}
+.month-name img{
+    margin-right: 20px;
+}
+
+.calendar-view .container{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    margin-inline: 10px;
+}
+
+.upcoming-schedule{
+    margin: 10px;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.appointment-day{
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-inline: 10px;
+    color: rgb(182, 163, 163);
+}

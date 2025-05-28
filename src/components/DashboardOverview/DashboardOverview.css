@@ -1,0 +1,42 @@
+.dash-board{
+    height:max-content;
+    max-height: 450px;
+    width: 100%;
+    margin: 5px 0 10px;
+    padding: 10px;
+}
+
+.dash-board-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dash-board-header h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--darkBlue);
+}
+
+.dash-board-header h6 {
+    color: rgb(69, 69, 141);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+} 
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap:50px; */
+    margin-bottom: 100px;
+}
+
+.img-container .small-imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

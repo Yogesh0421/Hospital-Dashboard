@@ -1,0 +1,31 @@
+.dash-board-container{
+    /* background-color: red; */
+    gap: 5px;
+    margin-bottom: 0;
+}
+
+.search-bar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 15px 0 15px;
+    gap: 10px;
+    margin: 20px 0 0 0;
+}
+
+.search-bar{
+    display: flex;
+    padding: 6px 12px;
+    width: 100%;
+    gap: 10px;
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 5px;
+    color: var(--darkGray);
+    /* background-color: violet; */
+}
+
+.bell-icon{
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 5px;
+    padding: 5px;
+}

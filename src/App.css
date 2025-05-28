@@ -1,0 +1,46 @@
+/* This file can be accessed globally within this entire react app */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* Removing default margin and padding */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+body{
+  background-color: #ddebeb;
+  padding: 10px;
+  height: 100%;
+}
+
+body::-webkit-scrollbar{
+  width: 0;
+}
+
+/* Css Variables */
+:root{
+  --gray:rgb(228, 222, 222);
+  --darkGray:rgb(206, 199, 199);
+  --cardColor:#e7ecec;
+  --lightBlue:#6fe1fd;
+  --blue:#30477a;
+  --darkBlue:#083272;
+  --lightBackgroud:#f1faf9;
+}
+
+:root{
+  --smallFont:0.8rem;
+}
+
+.container{
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 40px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}

@@ -1,0 +1,11 @@
+.anatomy{
+    position: relative;
+    margin-left: 40px;
+    padding: 40px;
+    border-radius: 25px;
+    background-color: var(--lightBackgroud);
+}
+
+.anatomy img{
+    height: 300px;
+}

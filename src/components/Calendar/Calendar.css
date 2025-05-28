@@ -1,0 +1,95 @@
+
+.calendar {
+    padding: 10px;
+    width: 100%;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    padding: 5px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.day.active {
+    background-color: #eaefff;
+}
+
+.day span {
+    font-size: var(--smallFont);
+    color: rgb(37, 27, 92);
+}
+
+.day .date {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-block: 10px;
+    color: #333;
+}
+
+.times {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 4px 5px;
+}
+
+.time {
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    color: var(--blue);
+    text-align: center;
+}
+
+.time.selected {
+    background-color: var(--blue);
+    color: white;
+}
+
+.time.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1024px) {
+    .days {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .days {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .calendar {
+        padding: 16px;
+    }
+
+    .calendar-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .days {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        padding: 20px;
+    }
+}
