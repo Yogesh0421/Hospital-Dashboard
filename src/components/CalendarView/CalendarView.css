@@ -64,3 +64,16 @@
     margin-inline: 10px;
     color: rgb(182, 163, 163);
 }
+
+@media (max-width: 480px) {
+    .calendar-view{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}

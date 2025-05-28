@@ -37,3 +37,18 @@
 .activity-days span {
     font-size: 0.7rem;
 }
+
+@media (max-width: 560px) {
+    .activity{
+        align-items: center;
+        width: 100%;
+        max-width: 320px;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .activity-header{
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+}

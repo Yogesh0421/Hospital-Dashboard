@@ -16,7 +16,6 @@ const DashboardMain = () => {
           <div className="bell-icon">
           <img src={bell} alt="" />
           </div>
-
         </div>
         <DashboardOverview/>
         <Activity />
