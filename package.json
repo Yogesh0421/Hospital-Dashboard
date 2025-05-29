@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yogesh0421.github.io/Hospital-Dashboard",
+  "homepage": "https://yogesh0421.github.io/Hospital-Dashboard/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
